@@ -20,6 +20,6 @@ from . import views
 
 urlpatterns = [
     path('', views.testFunction, name='testFunction'),
-    path('function2', views.test2Function, name='test2Function'),
+    path('', views.test2Function, name='test2Function'),
 
 ]

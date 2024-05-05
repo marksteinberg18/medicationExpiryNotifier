@@ -4,7 +4,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def testFunction(request): 
-    return HttpResponse('Hello World')
+    test2Function(request)
+    return HttpResponse('<h1>Hello World number 1</h1>')
+
 
 def test2Function(request): 
-    return HttpResponse('Hello World number 2')
+    return HttpResponse('<h1>Hello World number 2</h1>')
+
